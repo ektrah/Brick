@@ -33,6 +33,7 @@ brick:Alarm_Delay_Parameter,,,,,,,brick:Alarm_Delay_Parameter,,A parameter deter
 brick:Alarm_Sensitivity_Parameter,,,,,,,brick:Alarm_Sensitivity_Parameter,,A parameter indicates the sensitivity to activate an alarm.
 brick:Ammonia_Sensor,,,brick:Air,brick:Ammonia,,quantitykind:AmountOfSubstanceFraction,brick:Sensor,,
 brick:Angle_Sensor,,,,,,quantitykind:Angle,brick:Sensor,,Measues the planar angle of some phenomenon
+brick:Apparent_Power_Sensor,,,,,,quantitykind:ApparentPower,brick:Sensor,,Measures apparent power in an AC electrical system
 brick:Automatic_Mode_Command,,,,,,brick:EnumerationKind-Automatic_Mode,brick:Command,,"Controls whether or not a device or controller is operating in ""Automatic"" mode"
 brick:Availability_Status,,,,,,brick:EnumerationKind-Availability,brick:Status,,"Indicates if a piece of equipment, system, or functionality is available for operation"
 brick:Average_Cooling_Demand_Sensor,,brick:Cooling,,,,,brick:Average_Demand_Sensor,,Measures the average power consumed by a cooling process as the amount of power consumed over some interval
@@ -428,7 +429,6 @@ brick:Leaving_Water_Temperature_Setpoint,,,brick:Leaving_Water,,,quantitykind:Te
 brick:Level_Command,,,,,,,brick:Command,Level,Adjusts the operational state to a specific level within a predefined range.
 brick:Level_Status,,,,,,,brick:Status,Level,The current operational state of a specific level within a predefined range.
 brick:Lighting_Correlated_Color_Temperature_Command,,brick:Lighting,,,,quantitykind:CorrelatedColorTemperature,brick:Command,,A command to set correlated color temperature (CCT) which is the temperature of the Planckian radiator whose perceived color most closely resembles that of a given stimulus at the same brightness and under specified viewing conditions.
-brick:Lighting_Correlated_Color_Temperature_Sensor,,brick:Lighting,,,,quantitykind:CorrelatedColorTemperature,brick:Sensor,,A sensor to measure correlated color temperature (CCT) which is the temperature of the Planckian radiator whose perceived color most closely resembles that of a given stimulus at the same brightness and under specified viewing conditions.
 brick:Lighting_Level_Command,,brick:Lighting,,,,,brick:Command,Level,Controls the amount of the light provided by the device typically in percentages.
 brick:Limit,,,,,,,brick:Limit,,A parameter that places an upper or lower bound on the range of permitted values of another point
 brick:Liquid_Detection_Alarm,,,,,,,brick:Liquid_Detection_Alarm,,
@@ -636,6 +636,7 @@ brick:Position_Command,,,,,,quantitykind:OpeningRatio,brick:Command,,Controls or
 brick:Position_Limit,,,,,,quantitykind:OpeningRatio,brick:Setpoint_Limit,,A parameter that places a lower or upper bound on the range of permitted values of a Position_Setpoint.
 brick:Position_Sensor,,,,,,quantitykind:OpeningRatio,brick:Sensor,,Measures the current position of a component in terms of a fraction of its full range of motion
 brick:Power_Alarm,,,,,,quantitykind:Power,brick:Alarm,,An alarm that indicates the off-normal conditions associated with electrical power.
+brick:Power_Cycle_Count_Sensor,,brick:Power_Cycle,,,,quantitykind:Count,brick:Sensor,,Counts the number of equipment power cycles
 brick:Power_Factor_Sensor,,,,,,quantitykind:PowerFactor,brick:Sensor,,"Sensors measuring power Factor, under periodic conditions, is the ratio of the absolute value of the active power (P) to the apparent power (S)."
 brick:Power_Loss_Alarm,,,,,,,brick:Power_Loss_Alarm,,An alarm that indicates a power failure.
 brick:Power_Sensor,,,,,,quantitykind:Power,brick:Sensor,,Measures the amount of instantaneous power consumed
@@ -718,6 +719,7 @@ brick:Standby_Load_Shed_Command,,,,,,,,(deprecated),
 brick:Standby_Target_Zone_Air_Temperature_Setpoint,,,,,,,,(deprecated),
 brick:Standby_Unit_On_Off_Status,,,,,,,,(deprecated),Indicates the on/off status of a standby unit
 brick:Start_Stop_Command,,,,,,brick:EnumerationKind-Start_Stop,brick:Command,,A Start/Stop Command controls or reports the active/inactive status of a control sequence
+brick:Start_Stop_Counter,,,,,,,,(deprecated) (alias),
 brick:Start_Stop_Status,,,,,,brick:EnumerationKind-Start_Stop,brick:Status,,Indicates the active/inactive status of a control loop (but not equipment activities or relays -- use On/Off for this purpose)
 brick:Static_Pressure_Deadband_Setpoint,,,,,,quantitykind:StaticPressure,brick:Deadband_Setpoint,,Sets the size of a deadband of static pressure
 brick:Static_Pressure_Integral_Time_Parameter,,,,,,quantitykind:StaticPressure,brick:Integral_Time_Parameter,,
