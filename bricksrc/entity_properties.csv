@@ -24,9 +24,9 @@ brick:measuredPowerInput,brick:Measured,,,quantitykind:ElectricPower,brick:Input
 brick:measuredPowerOutput,brick:Measured,,,quantitykind:ElectricPower,brick:Output,,The nominal measured power output of the entity
 brick:netArea,,,brick:Net,quantitykind:Area,,,Entity has net 2-dimensional area
 brick:operationalStage,,,,,,operational stage,The associated operational stage
-brick:operationalStageCount,,,,,,operational stage count,The number of operational stages supported by this equipment
+brick:operationalStageCount,,,,quantitykind:Count,,operational stage,The number of operational stages supported by this equipment
 brick:panelArea,,,,quantitykind:Area,,panel,"Surface area of a panel, such as a PV panel"
-brick:ratedApparentPower,brick:Rated,,,quantitykind:ElectricPower,,apparent,The nominal rated apparent power of the entity
+brick:ratedApparentPower,brick:Rated,,,quantitykind:ApparentPower,,,The nominal rated apparent power of the entity
 brick:ratedCorrelatedColorTemperature,brick:Rated,,,quantitykind:CorrelatedColorTemperature,,,The nominal rated correlated color temperature of the entity
 brick:ratedCurrentInput,brick:Rated,,,quantitykind:ElectricCurrent,brick:Input,,The nominal rated current input of the entity
 brick:ratedCurrentOutput,brick:Rated,,,quantitykind:ElectricCurrent,brick:Output,,The nominal rated current output of the entity
